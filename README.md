@@ -9,7 +9,9 @@ TL;DR<br>
 `sudo usermod -aG docker yourusername`<br>
 Log out and log back in<br>
 `docker run hello-world` # test without sudo<br>
-
+<br>
+To pull the latest image<br>
+`docker pull jupyter/scipy-notebook`<br>
 Run command below in the dir that contains the notebooks<br>
 `docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/scipy-notebook`<br>
 Follow instructions to access Jupyter<br>
