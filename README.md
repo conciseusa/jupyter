@@ -1,5 +1,5 @@
 # jupyter
-A collection of jupyter notebooks I use to work with my data.<br>
+A collection of Jupyter notebooks I use to work with my data/test results.<br>
 To run Jupyter on Docker:<br>
 Install Docker for your platform, this should be easy to find.<br>
 Makes it easier to set things up to run non-root:<br>
@@ -12,9 +12,11 @@ Log out and log back in<br>
 <br>
 To pull the latest image<br>
 `docker pull jupyter/scipy-notebook`<br>
-Run command below in the dir that contains the notebooks<br>
+Run command below in the dir that contains the notebooks (Linux)<br>
 `docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/scipy-notebook`<br>
-Follow instructions to access Jupyter<br>
+Or if running Docker Desktop (Windows)<br>
+![Jupyter Notebook Docker Desktop (Windows) Settings](media/DockerDesktopRun.png)<br>
+Follow instructions in log to access Jupyter<br>
 Double click on work dir to see files from pwd<br>
 Short version of instructions found at:<br>
 https://towardsdatascience.com/how-to-run-jupyter-notebook-on-docker-7c9748ed209f<br>
