@@ -12,6 +12,7 @@ Log out and log back in<br>
 <br>
 To pull the latest image<br>
 `docker pull jupyter/scipy-notebook`<br>
+Rerun above pull command to update image<br>
 Run command below in the dir that contains the notebooks (Linux)<br>
 `docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/scipy-notebook`<br>
 Or if running Docker Desktop (Windows)<br>
